@@ -1,0 +1,38 @@
+Total Questions: 1000
+Correct Answers: 973
+Wrong Answers: 27
+Accuracy: 97.30%
+
+Mismatched Answers:
+Q20: Expected=7.076004 | Found=6.399
+Q196: Expected=-0.17799999999999994 | Found=0.122
+Q205: Expected=1.85 | Found=2.85
+Q285: Expected=2.9 | Found=3.81
+Q301: Expected=7.08 | Found=6.4
+Q359: Expected=30.073 | Found=36.421
+Q445: Expected=5.5 | Found=5.1
+Q457: Expected=71.306 | Found=68.482
+Q488: Expected=8.1 | Found=7.8
+Q490: Expected=8.078169253426985 | Found=7.7582
+Q492: Expected=0.8500000000000005 | Found=0.85
+Q497: Expected=30.464608 | Found=27.8461
+Q573: Expected=27.372 | Found=33.72
+Q622: Expected=0.24656803945088632 | Found=0.3798
+Q640: Expected=2.4499999999999997 | Found=2.45
+Q705: Expected=0.42600000000000016 | Found=1.964
+Q716: Expected=10.1 | Found=9.7
+Q736: Expected=10.452 | Found=9.452
+Q741: Expected=2.8980000000000024 | Found=3.811
+Q774: Expected=30.46 | Found=27.85
+Q780: Expected=-1.0 | Found=0.0
+Q791: Expected=64.14999999999999 | Found=64.15
+Q803: Expected=5.531142182676594 | Found=5.0572
+Q813: Expected=3.553 | Found=3.253
+Q828: Expected=0.5440900562851783 | Found=0.7148
+Q958: Expected=1.0 | Found=2.0
+Q970: Expected=10.120000000000001 | Found=9.72
+
+Total Questions: 1000
+Correct Answers: 973
+Wrong Answers: 27
+Accuracy: 97.30%

@@ -1,0 +1,31 @@
+
+submission_file >>  GPT-5.4 Thinking-1000-answers.csv
+Total Questions: 1000
+Correct Answers: 679
+Wrong Answers: 321
+Accuracy: 67.90%
+
+submission_file >>  Google Gemini 3.1 Pro-1000-answers.csv
+Total Questions: 1000
+Correct Answers: 973
+Wrong Answers: 27
+Accuracy: 97.30%
+
+submission_file >>  Kimi K26 Thinking-1000-Answers.csv
+Total Questions: 1000
+Correct Answers: 774
+Wrong Answers: 226
+Accuracy: 77.40%
+
+submission_file >>  DeepSeek Pro v4-1000-Answers.csv
+Total Questions: 1000
+Correct Answers: 788
+Wrong Answers: 212
+Accuracy: 78.80%
+
+submission_file >>  Anthropic Claude Sonnet 4.6-1000-answers.csv
+Total Questions: 1000
+Correct Answers: 744
+Wrong Answers: 256
+Accuracy: 74.40%
+
