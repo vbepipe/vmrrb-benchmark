@@ -2,7 +2,7 @@
 
 ## Version: 01
 
-## Difficulty Level: Very Easy
+## Difficulty Level: Normal
 
 # Results
 
