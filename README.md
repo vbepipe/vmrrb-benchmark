@@ -242,5 +242,17 @@ Future development may involve collaboration with frontier AI research labs to e
 
 The benchmark will continue evolving to evaluate increasingly complex recursive reasoning and execution capabilities in large-scale AI systems.
 
+---
 
+# Raw Model Outputs
+
+Raw AI model responses used during benchmark evaluation are provided for transparency, reproducibility, and independent analysis.
+
+| Model | Response Link |
+|---|---|
+| Google Gemini 3.1 Pro | [View Response](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221Z1zC6JyB7Z5g4zNoP3hl_3v4LD3MbhrK%22%5D,%22action%22:%22open%22,%22userId%22:%22117360059120737645860%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing) |
+| DeepSeek Pro v4 | [View Response](https://chat.deepseek.com/share/y9hii6o5t7rowp87hv) |
+| Kimi K2 Thinking | [View Response](https://www.kimi.com/share/19e0e50b-29e2-8bc3-8000-0000e43c23b5) |
+| Anthropic Claude Sonnet 4.6 | [View Response](https://claude.ai/share/090a6570-b6e4-4f1f-9758-47b693110592) |
+| GPT-5.4 Thinking | [View Response](https://www.perplexity.ai/search/questionsheet-1000-txt-DhIUJY8vTuKER6npfQMgfg) |
 
