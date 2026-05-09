@@ -129,10 +129,10 @@ Questions are recursively interconnected through dependency references.
 Example:
 
 ```text
-Question [10]: Compute the product of [ Answer 4 ] and [ Answer 7 ]
+Question [10]: Compute the product of [ Answer 4 ] and 3.56
 ```
 
-To solve Question 10, a model must first recursively solve Question 4 and Question 7 before computing the final answer.
+To solve Question 10, a model must first recursively solve Question 4 before computing the final answer.
 
 The benchmark evaluates whether models can:
 
@@ -173,23 +173,17 @@ Outputs are evaluated not only for mathematical correctness, but also for:
 
 # Evaluation & Scoring Methods
 
-Models are evaluated using the following metrics:
+Model outputs are evaluated through end-to-end answer correctness against the benchmark ground-truth dataset.
 
-| Metric                            | Description                                       |
-| --------------------------------- | ------------------------------------------------- |
-| Accuracy                          | Percentage of correctly solved questions          |
-| Dependency Resolution Correctness | Ability to correctly resolve recursive references |
-| Output Compliance                 | Adherence to required output formatting           |
-| Latency                           | Total execution time                              |
-| Consistency                       | Stability across long recursive reasoning chains  |
+Numerical answers are compared using configurable decimal-place tolerance matching to reduce sensitivity to insignificant floating-point formatting differences.
 
-A response is considered correct only if:
+Current benchmark evaluations use a 1-decimal-place comparison threshold.
 
-* All referenced dependencies are resolved correctly
-* The final numeric answer is accurate
-* Required output formatting rules are preserved
+| Metric | Description |
+|---|---|
+| Accuracy | Percentage of correctly solved questions |
 
-Partial correctness is not considered valid if recursive dependency resolution fails at any stage.
+Because benchmark questions are recursively interconnected, recursive reasoning accuracy, dependency resolution, parsing robustness, and execution consistency are evaluated implicitly through final-answer correctness rather than through independently scored sub-metrics.
 
 ---
 
@@ -210,6 +204,8 @@ The benchmark supports scalable configurations ranging from small evaluation sub
 ---
 
 # Results
+
+## Result of 1000 Questions 
 
 | Rank | Model Name                  | Score  |
 | ---- | --------------------------- | ------ |
@@ -233,12 +229,18 @@ Leaderboard.csv
 
 Future benchmark expansions may include:
 
-* Larger recursive dependency graphs
-* Multilingual noisy reasoning tasks
-* Symbolic reasoning extensions
-* Adaptive difficulty scaling
-* Automated benchmark generation pipelines
-* Expanded robustness evaluation metrics
+- Larger recursive dependency graphs
+- Multilingual noisy reasoning tasks
+- Symbolic reasoning extensions
+- Adaptive difficulty scaling
+- Automated benchmark generation pipelines
+- Expanded robustness evaluation methodologies
+
+VMRRB already includes larger-scale benchmark configurations containing 10K, 100K, and 1M recursively interconnected questions. Preliminary evaluations indicate substantial performance and scalability challenges for current frontier language models on these larger recursive workloads.
+
+Future development may involve collaboration with frontier AI research labs to evaluate large-scale recursive reasoning capabilities, scalability limits, and robustness under increasingly complex dependency structures.
 
 The benchmark will continue evolving to evaluate increasingly complex recursive reasoning and execution capabilities in large-scale AI systems.
+
+
 
