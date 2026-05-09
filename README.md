@@ -10,7 +10,7 @@
 benchmark/
 ├── README.md              ← methodology, benchmark specification
 ├── scripts/               ← scoring and evaluation scripts
-├── test_prompt/           ← exact prompts used for testing
+├── test_prompt/           ← prompt used for testing and question & answer sheets
 ├── results/               ← detailed benchmark reports
 ├── raw_data_ai_response/  ← raw AI model outputs
 └── Leaderboard.csv
