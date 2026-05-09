@@ -68,7 +68,7 @@ The objective is not only to measure reasoning accuracy, but also to evaluate wh
 
 Modern frontier AI systems demonstrate strong performance on conventional reasoning benchmarks but frequently degrade under recursive dependency resolution, noisy semantic parsing, and long-chain execution constraints.
 
-VMRRB is designed to evaluate whether a model can maintain correctness, consistency, and structured execution while solving recursively interconnected mathematical tasks embedded within noisy and adversarial text environments.
+VMRRB is designed to evaluate whether a model can maintain correctness, consistency, and structured execution while solving recursively interconnected (mathematical) tasks embedded within challenging environments.
 
 The benchmark combines:
 
