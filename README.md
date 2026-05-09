@@ -4,17 +4,27 @@
 
 ## Difficulty Level: Very Easy
 
+# Results
+
+| Rank | Model Name                  | Score  |
+| ---- | --------------------------- | ------ |
+| 1    | Google Gemini 3.1 Pro       | 97.30% |
+| 2    | DeepSeek Pro v4             | 78.80% |
+| 3    | Kimi K26 Thinking           | 77.40% |
+| 4    | Anthropic Claude Sonnet 4.6 | 74.40% |
+| 5    | GPT-5.4 Thinking            | 67.90% |
+
 ## Benchmark File Structure
 
 ```text
-benchmark/
+vmrrb-benchmark/
 ├── README.md              ← methodology, benchmark specification
 ├── scripts/               ← scoring and evaluation scripts
-├── test_prompt/           ← prompt used for testing and question & answer sheets
+├── test_prompt/           ← prompt used for testing and question & answer sheets 
 ├── results/               ← detailed benchmark reports
 ├── raw_data_ai_response/  ← raw AI model outputs
 └── Leaderboard.csv
-````
+```
 
 ---
 
