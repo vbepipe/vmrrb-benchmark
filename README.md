@@ -55,7 +55,6 @@ The objective is not only to measure reasoning accuracy, but also to evaluate wh
 
 * Introduction
 * Benchmark Objectives
-* Core Capabilities Tested
 * Benchmark Design
 * Evaluation & Scoring Methods
 * Dataset
@@ -86,23 +85,7 @@ In addition, benchmark prompts intentionally contain random irrelevant tokens an
 
 # Benchmark Objectives
 
-The benchmark aims to evaluate:
-
-* Recursive dependency resolution
-* Long-chain reasoning consistency
-* Robust semantic parsing under noisy inputs
-* Structured execution planning
-* Rule-following reliability
-* Computational scalability under recursive workloads
-* Correctness preservation across interconnected reasoning chains
-
-The benchmark is intended to stress-test reasoning systems beyond conventional single-step mathematical evaluation tasks.
-
----
-
-# Core Capabilities Tested
-
-Below is a structured list of the capabilities being tested:
+Below is a structured list of the capabilities benchmark aims to evaluate:
 
 | Main Category                          | What Is Being Tested                                                                                                             |
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -113,6 +96,8 @@ Below is a structured list of the capabilities being tested:
 | Context & Long-Chain Consistency       | Retaining intermediate results and ensuring consistency across deep reasoning chains                                             |
 | Instruction & Rule Following           | Strictly adhering to procedural, execution, and output-format constraints                                                        |
 | Recursive Planning & Execution         | Planning dependency resolution strategy and executing computations systematically                                                |
+
+The benchmark is intended to stress-test reasoning systems beyond conventional single-step mathematical evaluation tasks.
 
 ---
 
