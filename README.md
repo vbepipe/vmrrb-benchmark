@@ -37,16 +37,10 @@ vmrrb-benchmark/
 ├── test_prompt/           ← prompt used for testing and question & answer sheets 
 ├── results/               ← detailed benchmark reports
 ├── raw_data_ai_response/  ← raw AI model outputs
-└── Leaderboard.csv
+└── Leaderboard.csv        ← leaderboard rankings
 ```
 
 Detailed benchmark reports, raw model outputs, and evaluation summaries are available in the `results/` and `raw_data_ai_response/` directories.
-
-Leaderboard rankings are mainly maintained in:
-
-```text
-Leaderboard.csv
-```
 
 ---
 
