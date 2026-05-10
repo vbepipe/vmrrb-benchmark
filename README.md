@@ -1,9 +1,20 @@
 # Vinayak Multistep Recursive Reasoning Benchmark (VMRRB)
 
-## Version: 01 (Reduced Evaluation Set)
-- Difficulty Level: Normal
-- Question Count: 1,000 recursively dependent questions
-- Purpose: Public evaluation and baseline benchmarking
+A benchmark for evaluating advanced reasoning, recursive dependency resolution, and robustness capabilities of large language models in dynamic, noisy, and structurally challenging environments. 
+
+---
+
+## Benchmark Configuration
+
+| Attribute | Specification |
+|---|---|
+| Version | **01** |
+| Difficulty Level | **Normal** |
+| Type | **Reduced Evaluation Set** |
+| Question Count | **1,000 recursively dependent questions** |
+| Purpose | **Public evaluation and baseline benchmarking** |
+
+---
 
 # Results
 
@@ -14,6 +25,8 @@
 | 3    | Kimi K26 Thinking           | 77.40% |
 | 4    | Anthropic Claude Sonnet 4.6 | 74.40% |
 | 5    | GPT-5.4 Thinking            | 67.90% |
+
+---
 
 ## Benchmark File Structure
 
@@ -255,9 +268,10 @@ The complete VMRRB framework is designed to support significantly larger recursi
 
 | Attribute | Specification |
 |---|---|
-| Question Count | Up to 10 trillion recursively interconnected questions |
-| Difficulty Level | Hard |
-| Purpose | Large-scale recursive reasoning stress testing and scalability research |
+| Difficulty Level | **Hard** |
+| Type | **Full Evaluation Set** |
+| Question Count | **10 trillion recursively interconnected questions** |
+| Purpose | **Large-scale recursive reasoning stress testing and scalability research** |
 
 The 10-trillion-question configuration is intended as an extreme scalability target for evaluating recursive dependency resolution, long-chain consistency, memory robustness, and execution planning under massive recursive workloads.
 
