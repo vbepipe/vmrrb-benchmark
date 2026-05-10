@@ -48,7 +48,7 @@ Detailed benchmark reports, raw model outputs, and evaluation summaries are avai
 
 The **Vinayak Multistep Recursive Reasoning Benchmark (VMRRB)** is designed to evaluate advanced reasoning, recursive dependency resolution, and robustness capabilities in dynamic, noisy, and structurally challenging environments. 
 
-The benchmark architecture is designed to scale toward extremely large recursive workloads, including theoretical configurations containing trillions of interdependent questions.
+The benchmark architecture is designed to scale toward extremely large recursive workloads, including theoretical configurations containing trillions of interdependent questions. It dynamically generates a new recursive dataset for every evaluation run. No static database or fixed question set is used, ensuring each run is unique.
 
 Preliminary evaluations on contemporary frontier language models show substantial performance degradation even on reduced benchmark configurations containing 1,000 recursively dependent questions.
 
@@ -157,6 +157,23 @@ The benchmark evaluates whether models can:
 * Resolve nested references in proper order
 * Preserve intermediate state across long reasoning sequences
 * Maintain consistency throughout recursive execution
+
+## Dynamic Dataset Generation
+
+The benchmark uses dynamically generated recursive datasets rather than relying on a fixed static database.
+
+For each benchmark run, a new set of recursively interconnected questions, dependency structures, arithmetic compositions, and semantic noise patterns can be generated automatically. This ensures that individual evaluation runs remain structurally unique and reduces the risk of memorization-based optimization or overfitting to static benchmark content.
+
+The dynamic generation framework enables:
+
+* Unique recursive dependency graphs for each run
+* Variable noise injection patterns
+* Adjustable dependency depth and structural complexity
+* Scalable automatic benchmark creation
+* Reduced dataset memorization risk
+* More reliable evaluation of genuine reasoning capability
+
+Because benchmark instances can be generated procedurally, VMRRB is designed to support scalable evaluation workloads ranging from small public benchmark subsets to extremely large recursive reasoning stress tests.
 
 ## Noise Injection Strategy
 
