@@ -59,7 +59,7 @@ The benchmark is specifically designed to test:
 * **Long-chain consistency**
 * **Robust semantic parsing**
 * **Execution efficiency under recursive workloads**
-* **Reliable computation under noisy input conditions**
+* **Reliable computation under challenging input conditions**
 
 The benchmark intentionally relies on relatively simple arithmetic primitives. The primary difficulty emerges from recursive dependency resolution, noisy semantic parsing, execution ordering, long-chain consistency, and strict instruction-following constraints rather than advanced mathematical complexity.
 
@@ -225,7 +225,7 @@ The benchmark supports scalable configurations ranging from small evaluation sub
 Future benchmark expansions may include:
 
 - Larger recursive dependency graphs
-- Multilingual noisy reasoning tasks
+- Multilingual challenging reasoning tasks
 - Symbolic reasoning extensions
 - Adaptive difficulty scaling
 - Automated benchmark generation pipelines
