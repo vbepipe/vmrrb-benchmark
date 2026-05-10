@@ -16,7 +16,7 @@ A benchmark for evaluating advanced reasoning, recursive dependency resolution, 
 
 ---
 
-# Results
+## Results: Reduced Evaluation Set (1,000 Questions)
 
 | Rank | Model Name                  | Score  |
 | ---- | --------------------------- | ------ |
@@ -38,6 +38,14 @@ vmrrb-benchmark/
 ├── results/               ← detailed benchmark reports
 ├── raw_data_ai_response/  ← raw AI model outputs
 └── Leaderboard.csv
+```
+
+Detailed benchmark reports, raw model outputs, and evaluation summaries are available in the `results/` and `raw_data_ai_response/` directories.
+
+Leaderboard rankings are mainly maintained in:
+
+```text
+Leaderboard.csv
 ```
 
 ---
@@ -72,7 +80,6 @@ The objective is not only to measure reasoning accuracy, but also to evaluate wh
 * Benchmark Design
 * Evaluation and Scoring Methods
 * Dataset
-* Results
 * Future Work
 * Full Benchmark Configuration
 * Raw Model Outputs
@@ -216,28 +223,6 @@ Difficulty levels scale through:
 * Structural dependency length
 
 The benchmark supports scalable configurations ranging from small evaluation subsets to extremely large recursive workloads.
-
----
-
-# Results
-
-## Result of 1000 Questions 
-
-| Rank | Model Name                  | Score  |
-| ---- | --------------------------- | ------ |
-| 1    | Google Gemini 3.1 Pro       | 97.30% |
-| 2    | DeepSeek Pro v4             | 78.80% |
-| 3    | Kimi K26 Thinking           | 77.40% |
-| 4    | Anthropic Claude Sonnet 4.6 | 74.40% |
-| 5    | GPT-5.4 Thinking            | 67.90% |
-
-Detailed benchmark reports, raw model outputs, and evaluation summaries are available in the `results/` and `raw_data_ai_response/` directories.
-
-Leaderboard rankings are mainly maintained in:
-
-```text
-Leaderboard.csv
-```
 
 ---
 
