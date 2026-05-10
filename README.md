@@ -1,8 +1,9 @@
 # Vinayak Multistep Recursive Reasoning Benchmark (VMRRB)
 
-## Version: 01
-
-## Difficulty Level: Normal
+## Version: 01 (Reduced Evaluation Set)
+- Difficulty Level: Normal
+- Question Count: 1,000 recursively dependent questions
+- Purpose: Public evaluation and baseline benchmarking
 
 # Results
 
@@ -60,6 +61,8 @@ The objective is not only to measure reasoning accuracy, but also to evaluate wh
 * Dataset
 * Results
 * Future Work
+* Full Benchmark Configuration
+* Raw Model Outputs
 
 ---
 
@@ -241,6 +244,24 @@ VMRRB already includes larger-scale benchmark configurations containing 10K, 100
 Future development may involve collaboration with frontier AI research labs to evaluate large-scale recursive reasoning capabilities, scalability limits, and robustness under increasingly complex dependency structures.
 
 The benchmark will continue evolving to evaluate increasingly complex recursive reasoning and execution capabilities in large-scale AI systems.
+
+---
+
+# Full Benchmark Configuration
+
+The complete VMRRB framework is designed to support significantly larger recursive dependency graphs.
+
+## Full-scale theoretical configuration
+
+| Attribute | Specification |
+|---|---|
+| Question Count | Up to 10 trillion recursively interconnected questions |
+| Difficulty Level | Hard |
+| Purpose | Large-scale recursive reasoning stress testing and scalability research |
+
+The 10-trillion-question configuration is intended as an extreme scalability target for evaluating recursive dependency resolution, long-chain consistency, memory robustness, and execution planning under massive recursive workloads.
+
+Due to current practical limitations involving context windows, inference cost, execution time, and memory constraints, full-scale evaluations at this size are currently theoretical and experimental rather than standard public benchmark runs.
 
 ---
 
