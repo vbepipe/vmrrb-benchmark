@@ -8,11 +8,11 @@ A benchmark for evaluating advanced reasoning, recursive dependency resolution, 
 
 | Attribute | Specification |
 |---|---|
-| Version | **01** |
-| Difficulty Level | **Normal** |
-| Type | **Reduced Evaluation Set** |
-| Question Count | **1,000 recursively dependent questions** |
-| Purpose | **Public evaluation and baseline benchmarking** |
+| Version | 01 |
+| Difficulty Level | Normal |
+| Type | Reduced Evaluation Set |
+| Question Count | 1,000 recursively dependent questions |
+| Purpose | Public evaluation and baseline benchmarking |
 
 ---
 
@@ -70,7 +70,7 @@ The objective is not only to measure reasoning accuracy, but also to evaluate wh
 * Introduction
 * Benchmark Objectives
 * Benchmark Design
-* Evaluation & Scoring Methods
+* Evaluation and Scoring Methods
 * Dataset
 * Results
 * Future Work
@@ -187,7 +187,7 @@ Outputs are evaluated not only for mathematical correctness, but also for:
 
 ---
 
-# Evaluation & Scoring Methods
+# Evaluation and Scoring Methods
 
 Model outputs are evaluated through end-to-end answer correctness against the benchmark ground-truth dataset.
 
@@ -268,10 +268,10 @@ The complete VMRRB framework is designed to support significantly larger recursi
 
 | Attribute | Specification |
 |---|---|
-| Difficulty Level | **Hard** |
-| Type | **Full Evaluation Set** |
-| Question Count | **10 trillion recursively interconnected questions** |
-| Purpose | **Large-scale recursive reasoning stress testing and scalability research** |
+| Difficulty Level | Hard |
+| Type | Full Evaluation Set |
+| Question Count | 10 trillion recursively interconnected questions |
+| Purpose | Large-scale recursive reasoning stress testing and scalability research |
 
 The 10-trillion-question configuration is intended as an extreme scalability target for evaluating recursive dependency resolution, long-chain consistency, memory robustness, and execution planning under massive recursive workloads.
 
