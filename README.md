@@ -22,7 +22,7 @@ A benchmark for evaluating advanced reasoning, recursive dependency resolution, 
 | ---- | --------------------------- | ------ |
 | 1    | Google Gemini 3.1 Pro       | 97.30% |
 | 2    | DeepSeek Pro v4             | 78.80% |
-| 3    | Kimi K26 Thinking           | 77.40% |
+| 3    | Kimi K2.6 Thinking          | 77.40% |
 | 4    | Anthropic Claude Sonnet 4.6 | 74.40% |
 | 5    | GPT-5.4 Thinking            | 67.90% |
 
@@ -266,7 +266,7 @@ Raw AI model responses used during benchmark evaluation are provided for transpa
 |---|---|
 | Google Gemini 3.1 Pro | [View Response](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221Z1zC6JyB7Z5g4zNoP3hl_3v4LD3MbhrK%22%5D,%22action%22:%22open%22,%22userId%22:%22117360059120737645860%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing) |
 | DeepSeek Pro v4 | [View Response](https://chat.deepseek.com/share/y9hii6o5t7rowp87hv) |
-| Kimi K2 Thinking | [View Response](https://www.kimi.com/share/19e0e50b-29e2-8bc3-8000-0000e43c23b5) |
+| Kimi K2.6 Thinking | [View Response](https://www.kimi.com/share/19e0e50b-29e2-8bc3-8000-0000e43c23b5) |
 | Anthropic Claude Sonnet 4.6 | [View Response](https://claude.ai/share/090a6570-b6e4-4f1f-9758-47b693110592) |
 | GPT-5.4 Thinking | [View Response](https://www.perplexity.ai/search/questionsheet-1000-txt-DhIUJY8vTuKER6npfQMgfg) |
 
