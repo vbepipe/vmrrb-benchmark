@@ -20,11 +20,11 @@ A benchmark for evaluating advanced reasoning, recursive dependency resolution, 
 
 | Rank | Model Name                  | Score  |
 | ---- | --------------------------- | ------ |
-| 1    | Google Gemini 3.1 Pro       | 97.30% |
-| 2    | DeepSeek Pro v4             | 78.80% |
-| 3    | Kimi K2.6 Thinking          | 77.40% |
-| 4    | Anthropic Claude Sonnet 4.6 | 74.40% |
-| 5    | GPT-5.4 Thinking            | 67.90% |
+| 1    | Google Gemini 3.1 Pro       | 97.60% |
+| 2    | DeepSeek Pro v4             | 79.10% |
+| 3    | Kimi K2.6 Thinking          | 78.90% |
+| 4    | Anthropic Claude Sonnet 4.6 | 75.20% |
+| 5    | GPT-5.4 Thinking            | 68.00% |
 
 ---
 
