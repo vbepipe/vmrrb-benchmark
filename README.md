@@ -37,6 +37,7 @@ vmrrb-benchmark/
 ├── test_prompt/           ← prompt used for testing and question & answer sheets 
 ├── results/               ← detailed benchmark reports
 ├── raw_data_ai_response/  ← raw AI model outputs
+├── future_work/           ← samples of future benchmark question & answer sheets 
 └── Leaderboard.csv        ← leaderboard rankings
 ```
 
@@ -249,6 +250,8 @@ Future benchmark expansions may include:
 - Expanded robustness evaluation methodologies
 
 VMRRB already includes larger-scale benchmark configurations containing 10K, 100K, and 1M recursively interconnected questions. Preliminary evaluations indicate substantial performance and scalability challenges for current frontier language models on these larger recursive workloads.
+
+Sample question and answer sheets for future large-scale benchmark configurations are available in the `future_work/` directory. The repository currently includes sample recursive benchmark sheets for the 100K-question configuration to demonstrate large-scale dependency structures and benchmark generation capabilities.
 
 Future development may involve collaboration with frontier AI research labs to evaluate large-scale recursive reasoning capabilities, scalability limits, and robustness under increasingly complex dependency structures.
 
