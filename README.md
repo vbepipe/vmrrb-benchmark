@@ -251,7 +251,7 @@ Future benchmark expansions may include:
 
 VMRRB already includes larger-scale benchmark configurations containing 10K, 100K, and 1M recursively interconnected questions. Preliminary evaluations indicate substantial performance and scalability challenges for current frontier language models on these larger recursive workloads.
 
-Sample question and answer sheets for future large-scale benchmark configurations are available in the `future_work/` directory. The repository currently includes sample recursive benchmark sheets for the 100K-question configuration to demonstrate large-scale dependency structures and benchmark generation capabilities.
+Sample question and answer sheets for future large-scale benchmark configurations are available in the `future_work/` directory. The `future_work/` directory currently includes 100K-question benchmark samples. These files demonstrate large-scale recursive dependency structures and scalable benchmark generation capabilities for future benchmark expansions.
 
 Future development may involve collaboration with frontier AI research labs to evaluate large-scale recursive reasoning capabilities, scalability limits, and robustness under increasingly complex dependency structures.
 
