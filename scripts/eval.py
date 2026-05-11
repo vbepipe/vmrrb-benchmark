@@ -19,7 +19,7 @@
 def compareCSV(correct_file, submission_file):
     import csv
     import re
-
+    import math
 
     decimal_place_accuracy_v = 1 #3
     # Normalize question number
@@ -44,11 +44,23 @@ def compareCSV(correct_file, submission_file):
             return ans.strip()
 
     # Compare answers up to 3 decimal places
+    # def answers_match(a, b):
+    #     try:
+    #         return round(float(a), decimal_place_accuracy_v) == round(float(b), decimal_place_accuracy_v)
+    #     except:
+    #         return str(a).strip() == str(b).strip()
+
     def answers_match(a, b):
         try:
-            return round(float(a), decimal_place_accuracy_v) == round(float(b), decimal_place_accuracy_v)
+            fa, fb = float(a), float(b) 
+            def truncate(x, places):
+                factor = 10 ** places
+                return math.trunc(x * factor) / factor
+            
+            return truncate(fa, decimal_place_accuracy_v) == truncate(fb, decimal_place_accuracy_v)
         except:
             return str(a).strip() == str(b).strip()
+
 
     # Read CSV into dictionary
     def load_answers(file_path):
