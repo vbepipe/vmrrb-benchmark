@@ -37,7 +37,7 @@ vmrrb-benchmark/
 ├── test_prompt/           ← prompt used for testing and question & answer sheets 
 ├── results/               ← detailed benchmark reports
 ├── raw_data_ai_response/  ← raw AI model outputs
-├── future_work/           ← samples of future benchmark question & answer sheets 
+├── future_work/           ← samples of future benchmark question & answer sheets (100k Q&A added)
 └── Leaderboard.csv        ← leaderboard rankings
 ```
 
