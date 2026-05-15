@@ -1,5 +1,4 @@
 # © 2026 VINAYAK PATEL 
-# Email: vinayak.chronicles@outlook.com 
 
 # All rights are reserved by the developer.
 
